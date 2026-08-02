@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.vesence.com/security
+name: Vesence Trust & Security
+url: https://www.vesence.com/security
+summary: >-
+  Vesence publishes a security page describing independent audits, encryption,
+  tenant isolation, and compliance posture for professional-services firms
+  handling sensitive legal and financial work inside Microsoft Office.
+certifications:
+- name: SOC 2 Type II
+  status: certified
+  detail: Independently audited controls for security, availability, and confidentiality.
+- name: GDPR
+  status: compliant
+  detail: GDPR compliant with all processing in the European Union.
+controls:
+  data_protection:
+  - Never trains AI models on customer data
+  - Content Filtering and Abuse Monitoring turned off at the Azure level (not even Microsoft can access data)
+  - Documents processed in memory and never persisted beyond the session
+  - All customer data logically isolated per tenant (Zero Data Retention)
+  encryption:
+  - TLS 1.3 in transit
+  - AES-256 at rest
+  - Data encrypted within a secure Azure private environment
+  infrastructure:
+  - Hosted on Microsoft Azure European Central region
+  - Zero Trust architecture; every request verified regardless of origin
+  - 24/7 automated monitoring and threat detection
+  - Redundant architecture with automatic failover and point-in-time recovery
+  authentication:
+  - Microsoft Entra ID integration with token-based authentication
+  - SAML & SSO through the customer identity provider
+  - Role-Based Access Control (RBAC) with least-privilege principles
+  - Multi-factor authentication enforced for all accounts
+  - Comprehensive audit logging and automated session management
+  compliance:
+  - GDPR compliant with all processing in the European Union
+  - SOC 2 Type II certified, aligned with industry standards
+  - Regular third-party security audits and vulnerability assessments
+  - Incident response plan with defined SLAs
+subprocessors_page: https://www.vesence.com/subprocessors
+contact: hello@vesence.com

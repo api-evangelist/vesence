@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of https://www.vesence.com/.well-known/*
+summary: >-
+  No .well-known descriptors are published on the Vesence host. Vesence is a
+  product company (agentic AI inside Microsoft Office) with no public API,
+  OAuth authorization server, or AI plugin surface. Absence is expected.
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null

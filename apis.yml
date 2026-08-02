@@ -1,8 +1,17 @@
 aid: vesence
 name: Vesence
-description: 'Vesence is a company surfaced as a portfolio company of creandum, emergence-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Vesence builds agentic AI for professional-services firms that works directly
+  inside Microsoft Office. Its agents operate in Word, Excel, PowerPoint and
+  Outlook, plus a web app, reviewing emails, documents and projects before they
+  leave the firm and turning Microsoft Word into a purpose-built workspace for
+  high-stakes drafting, quality assurance and knowledge work. Vesence connects to
+  SharePoint, OneDrive, Outlook, Teams and document-management systems so agents
+  work with a firm's existing files and context, with every edit traceable through
+  tracked changes. Trusted by law firms, banks and investors, Vesence targets
+  transactional legal work such as fund formation, M&A and corporate matters. It
+  is a Y Combinator-backed startup surfaced through the venture portfolios of
+  Creandum and Emergence Capital.
 url: https://raw.githubusercontent.com/api-evangelist/vesence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,29 @@ x-backed-by:
 - emergence-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.vesence.com/images/socials.png
 tags:
 - Company
 - Ai
+- Agentic AI
+- Legal Tech
+- Professional Services
+- Microsoft Office
+- Document Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vesence-domain-security.yml
+- type: TrustCenter
+  url: security/vesence-trust-center.yml
+- type: Compliance
+  url: security/vesence-trust-center.yml
 - type: Website
-  url: https://vesence.com/
+  url: https://www.vesence.com/
+- type: Documentation
+  url: https://www.vesence.com/support
+- type: Support
+  url: https://www.vesence.com/support
+- type: Blog
+  url: https://www.vesence.com/blog
+- type: SignUp
+  url: https://www.vesence.com/free-trial
+- type: TermsOfService
+  url: https://www.vesence.com/terms
+- type: PrivacyPolicy
+  url: https://www.vesence.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
